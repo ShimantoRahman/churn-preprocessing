@@ -51,4 +51,4 @@ Comprehensive documentation of the functions can be found in the
 
 ## Reference
 - Rahman, S., Janssens, B., & Bogaert, M. (2025). "Profit-driven pre-processing in B2B customer churn modeling 
-using fairness techniques." _Journal of Business Research_.
+using fairness techniques." _Journal of Business Research_. (Forthcoming)
