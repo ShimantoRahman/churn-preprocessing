@@ -4,11 +4,7 @@ using fairness techniques" by Shimanto Rahman, Bram Janssens & Matthias Bogaert,
 Journal of Business Research. 
 The pre-processing techniques—resampling, reweighing, and massaging—are applied to 
 an open source customer [churn dataset](https://www.kaggle.com/datasets/ylchang/telco-customer-churn-1113)
-and evaluated with the EMPB and AUEPC metrics. 
-Note that this open-source dataset is synthetic and does not contain the inverse churn-CLV relationship 
-that is present in the real-world datasets used in the paper. 
-Therefore, the results are not representative of the results in the paper, 
-but are meant to demonstrate the implementation of the techniques.
+and evaluated with the EMPB and AUEPC metrics.
 
 ## Installation
 To install the required packages, run the following command:
@@ -17,8 +13,8 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-A full demo of the pre-processing techniques can be found in the 
-[demo notebook](https://github.com/ShimantoRahman/churn-preprocessing/blob/main/churn_preprocessing.ipynb).
+A full demo of the pre-processing techniques can be found in  
+[churn_preprocessing.ipynb](https://github.com/ShimantoRahman/churn-preprocessing/blob/main/churn_preprocessing.ipynb).
 
 This is a dummy use-case of the pre-processing techniques:
 ```python
