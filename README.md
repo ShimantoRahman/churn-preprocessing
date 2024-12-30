@@ -33,9 +33,9 @@ resampling_model = BiasResamplingClassifier(estimator=LogisticRegression())
 reweighing_model = BiasReweighingClassifier(estimator=LogisticRegression())
 massaging_model = BiasRelabelingClassifier(estimator=LogisticRegression())
 
-resampling_model.fit(X, y, protected_attr=high_clv)
-reweighing_model.fit(X, y, protected_attr=high_clv)
-massaging_model.fit(X, y, protected_attr=high_clv)
+resampling_model.fit(X, y, sensitive_feature=high_clv)
+reweighing_model.fit(X, y, sensitive_feature=high_clv)
+massaging_model.fit(X, y, sensitive_feature=high_clv)
 
 resampling_y_pred = resampling_model.predict_proba(X)[:, 1]
 reweighing_y_pred = reweighing_model.predict_proba(X)[:, 1]
