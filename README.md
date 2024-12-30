@@ -50,5 +50,6 @@ Comprehensive documentation of the functions can be found in the
 [Empulse](https://shimantorahman.github.io/empulse/index.html) package.
 
 ## Reference
-- Rahman, S., Janssens, B., & Bogaert, M. (2025). "Profit-driven pre-processing in B2B customer churn modeling 
-using fairness techniques." _Journal of Business Research_. (Forthcoming)
+- Rahman, S., Janssens, B., & Bogaert, M. (2025). 
+Profit-driven pre-processing in B2B customer churn modeling using fairness techniques. 
+Journal of Business Research, 189, 115159.
